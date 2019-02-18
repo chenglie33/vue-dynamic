@@ -16,6 +16,7 @@ Vue.use(Dynamic, {plugin: {     plugin =>注入项目中实际使用的插件
   store,
   i18n
 }})
+this.$dynamic（dom, ComponentsView, data, emit, slots）：promise
 dom=>实际使用中你的动态元素将会插入的节点 注意是dom节点
 ComponentsView=>可以传入静态dom节点或者Vue模板
 data=>ComponentsView中需要的props数据
