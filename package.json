@@ -1,7 +1,7 @@
 {
   "name": "vue-dynamic-plugin",
   "description": "支持动态组件 向页面中动态的添加任何组件",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "chenglie33 <394699890@qq.com>",
   "license": "MIT",
   "private": false,
@@ -22,6 +22,7 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
