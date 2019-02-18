@@ -1,6 +1,7 @@
 # vue-dynamic
 
-> A Vue.js project
+
+> 解决自定义弹出层组件的复用问题
 
 ## Build Setup
 
@@ -15,4 +16,6 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+
