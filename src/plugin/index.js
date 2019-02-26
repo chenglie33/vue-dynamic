@@ -70,9 +70,9 @@ DynamicUi.install = function (Vue, options) {
   }
   function innerHtml (dom, instance) {
     if (!dom || dom === '') {
-      document.body.append(instance.vm.$el)
+      document.body.appendChild(instance.vm.$el)
     } else {
-      document.getElementById(dom).appendChild(instance.vm.$el)
+      dom.appendChild(instance.vm.$el)
     }
   }
   Vue.prototype.$dynamic = Dynamic

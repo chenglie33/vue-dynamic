@@ -10,7 +10,7 @@
 npm i vue-dynamic-plugin
 
 #how to use
-import {Dynamic} from vue-dynamic-plugin
+import Dynamic from vue-dynamic-plugin
 Vue.use(Dynamic, {plugin: {     plugin =>注入项目中实际使用的插件
   router,
   store,
