@@ -48,6 +48,7 @@ DynamicUi.install = function (Vue, options) {
       ...plugins,
       propsData: { ...data }
     })
+    instance.childInstance = childInstance
     for (var k in slots) {
       let v = slots[k]
       if (typeof v.template !== 'object') {

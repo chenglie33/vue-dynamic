@@ -1,7 +1,7 @@
 {
   "name": "vue-dynamic-plugin",
   "description": "支持动态组件 向页面中动态的添加任何组件",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "chenglie33 <394699890@qq.com>",
   "license": "MIT",
   "private": false,
@@ -32,6 +32,6 @@
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
+    "webpack-dev-server": "^2.11.3"
   }
 }

@@ -9,7 +9,7 @@
 export default {
 	name: 'dynamic',
 	props:{
-		
+
 	},
 	data(){
 		return {
@@ -23,8 +23,8 @@ export default {
         }
     },
     beforeDestroy() {
-        
+        this.childInstance.$destroy(true);
     }
-    
+
 }
 </script>
